@@ -43,61 +43,93 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- 2. SISTEMA DE REPRODUCTOR DE MÚSICA ---
     const songs = [
         {
-            title: "Why'd You Only Call Me When You're High",
-            artist: "Arctic Monkeys",
+            title: "If I Killed Someone For You",
+            artist: "Alec Benjamin",
             src: "song.mp3", 
-            lyrics: `El espejo me dice que ya es hora de irme a casa
-            Pero no quiero, porque no estás conmigo
-            Al llegar creí verte alejándote
-            Con los zapatos en la mano
-            Pensé que otra vez solo lo había imaginado
-            Que nos cruzábamos por casualidad
-            Ahora son las tres de la mañana
-            Y trato de hacerte cambiar de opinión
-            Te dejé un montón de llamadas perdidas
-            Y a mi mensaje me respondes
-            ¿Por qué solo me llamas cuando estás drogado?
-            Hola, ¿por qué solo me llamas cuando estás drogado?
-            En un lugar más oscuro, repitiendo las mismas estupideces
-            Necesito alguien que esté conmigo, ¿saldrás esta noche?
-            Cada vez es más difícil que me escuches
-            Cuanto más apuro el coche
-            Soy incapaz de decidir bien
-            Y solo se me ocurren ideas de mierda
-            Ahora son las tres de la mañana
-            Y trato de hacerte cambiar de opinión
-            Te dejé un montón de llamadas perdidas
-            Y a mi mensaje me respondes
-            ¿Por qué solo me llamas cuando estás drogado?
-            ¿Por qué solo me llamas cuando estás...?
-            Hola, ¿por qué solo me llamas cuando estás drogado?
-            No te veo por ningún lado, me pregunto dónde estarás
-            Siento que se me acaba el tiempo
-            No encontré lo que esperaba encontrar
-            Dijiste que mañana madrugas
-            Que te ibas a acostar temprano
-            Y ya me estás aburriendo, nena
-            ¿Por qué solo me llamas cuando estás drogado?
-            ¿Por qué solo me llamas cuando estás drogado?
-            ¿Por qué solo me llamas cuando estás drogado?
-            ¿Por qué solo me llamas cuando estás drogado?
-            ¿Por qué solo me llamas cuando estás drogado?`,
-            meaning: `¿Alguna vez has contestado una llamada a las tres de la mañana sabiendo perfectamente que al otro lado hay alguien que solo te recuerda cuando las drogas le aflojan la lengua y le bajan los estándares? ¿Cuántas veces has permitido que te usen como pañuelo desechable para sus bajones, solo para que al día siguiente te ignoren como si fueras un error de borracho?
+            lyrics: `Lo siento por haber hecho esto
+                La sangre está en mis manos
+                Me miro en el reflejo
+                Y no sé quién soy
+                Practico mi confesión
+                Por si tengo que declarar
+                Diré que aprendí la lección
+                Que seré un hombre mejor
+                Estoy empacando mis cosas
+                Limpiando las paredes
+                Enjuagando mi ropa
+                Caminando por los pasillos
+                Lo hice todo por ella
+                Y no sentí nada
+                No sé qué dirá
+                Se lo preguntaré cuando llame
+                ¿Me amarías más?
+                ¿Me amarías más si matara a alguien por ti?
+                ¿Me tomarías de la mano?
+                Son las mismas manos que usé
+                Cuando maté a alguien por ti
+                ¿Me entregarías?
+                Cuando digan que estoy huido?
+                ¿Me esconderías cuando
+                Mi cara aparezca en las noticias?
+                Porque maté a alguien por ti
+                Oigo las sirenas acercándose
+                Veo las luces intermitentes
+                Conduzco por los suburbios
+                Con mi disfraz puesto
+                Llego a su puerta
+                Para mirarla a los ojos
+                Le digo que soy yo
+                Pero ella no me reconoce
+                ¿No ves que estoy huyendo?
+                Necesito un lugar donde esconderme
+                Tengo que preguntarte algo
+                ¿Podrías dejarme entrar?
+                Solo déjame explicar
+                No te mentiría
+                Sé que entenderás
+                Si me dejas quedarme esta noche
+                ¿Me amarías más?
+                ¿Me amarías más si matara a alguien por ti?
+                ¿Me tomarías de la mano?
+                Son las mismas manos que usé
+                Cuando maté a alguien por ti
+                ¿Me entregarías?
+                Cuando digan que estoy huido?
+                ¿Me esconderías cuando
+                Mi cara aparezca en las noticias?
+                Porque maté a alguien por ti
+                Tienes que entender que
+                El que maté fui yo
+                Cambiando lo que era
+                Por lo que querías que fuera
+                Seguí todas tus indicaciones
+                Hice todo lo que me pediste
+                Espero que te haga feliz
+                Porque ya no hay vuelta atrás
+                ¿Me amarías más?
+                ¿Me amarías más si matara a alguien por ti?
+                ¿Me tomarías de la mano?
+                Son las mismas manos que usé
+                Cuando maté a alguien por ti
+                ¿Me entregarías?
+                Cuando digan que estoy huido?
+                ¿Me esconderías cuando
+                Mi cara aparezca en las noticias?
+                Porque maté a alguien por ti`,
+            meaning: `¿Alguna vez te has mirado al espejo y has sentido que la persona que te devuelve la mirada es un completo desconocido? ¿Cuántas veces has borrado partes de ti mismo —tus gustos, tu forma de hablar, tus sueños, tu personalidad— solo para encajar en lo que alguien más quería, hasta que ya no queda casi nada de quien realmente eras?
 
-            Porque eso es exactamente lo que pasa aquí: un tipo (o tipa) que solo te busca cuando está tan colocado que hasta tú le pareces buena idea. Cuando está sobrio, ni te registra. Eres el plan Z, el relleno de un vacío que solo aparece cuando la realidad le pega fuerte y necesita a alguien que le diga “sí, todo bien” aunque sepa que es mentira.
+Esa es la esencia destructiva de esta canción: te matas en vida por complacer a otra persona. Cambias tanto que te conviertes en una versión falsa, vacía y rota de ti mismo, y al final ni siquiera esa persona te reconoce. Es patético y trágico a la vez, porque el precio más alto lo pagas tú: pierdes tu esencia, tu autenticidad, tu alma.
 
-            Imagínate la escena real: estás intentando dormir, el teléfono vibra, lo miras y ahí está su nombre. Contestas porque todavía queda algo de esa ilusión tonta que te dice “quizá esta vez sea diferente”. Habla arrastrando las palabras, te dice que te extraña muchísimo, que deberías verte ya, que eres lo único que le hace sentido en ese momento. Tú hablas, te ilusionas un rato, hasta sientes mariposas. Y luego llega el amanecer y… silencio total. Ni un mensaje de “gracias por escucharme”, ni un “¿cómo estás?”, nada. Desaparece hasta la próxima crisis química.
+Piensa en esto: estás en una relación donde poco a poco dejas de escuchar la música que te gusta porque “a ella no le agrada”, dejas de vestirte como quieres porque “te ve más maduro así”, abandonas tus amigos porque “no encajan con su círculo”, cambias tus planes de futuro para seguir los suyos. Al principio parece un sacrificio noble (“lo hago por amor”), pero con el tiempo te das cuenta de que te estás deshaciendo pedazo por pedazo. Un día te miras y ya no reconoces tu voz, tu risa, tus opiniones. Eres un cascarón que actúa el papel perfecto para ella… hasta que un día ella te mira y dice “ya no eres el mismo de antes” o, peor, simplemente se va con alguien más auténtico. Y tú te quedas ahí, vacío, con las manos manchadas de la sangre de tu yo verdadero.
 
-            Eso no es interés, eso es ser el juguete de alguien que no tiene los huevos de enfrentar sus propios demonios sin arrastrarte a ti. Es patético de su parte y, aunque duela admitirlo, también es patético de tu parte seguir contestando. Porque cada vez que lo haces le confirmas que puede tratarte como basura y tú seguirás ahí, disponible para cuando le dé la gana.
+Eso no es amor, es autodestrucción disfrazada de entrega. Nadie merece que te mates por dentro para complacerlo. Tú no eres un proyecto de mejora personal para nadie. Eres una persona completa tal como eras antes de intentar ser lo que alguien más quería.
 
-            Tú no eres el premio de consolación de nadie. No eres la muleta emocional de un adicto funcional que solo sabe querer cuando está fuera de sí. Mereces a alguien que te busque a las once de la mañana porque de verdad le importas, no porque necesita un cuerpo caliente para no sentirse solo en su mierda.
+Si estás en ese proceso ahora mismo, párate. La verdad duele: cada vez que cambias una parte de ti por aprobación ajena, estás matando al único que puede hacerte realmente feliz a largo plazo. Mereces estar con alguien que te quiera exactamente como eres —con tus rarezas, tus gustos “raros”, tu forma natural de ser— sin necesidad de que te disfraces o te borres.
 
-            Si estás en ese ciclo, párate un segundo y sé honesto contigo: ¿de verdad quieres seguir siendo la opción fácil de alguien que ni siquiera te elige cuando está en sus cinco sentidos? Bloquéalo, bórralo, déjalo gritarle al vacío la próxima vez que esté volando. Duele al principio, claro, porque duele soltar la esperanza de que “algún día cambie”. Pero esa esperanza es veneno puro.
+Tú vales entero, no en pedazos. Recupera lo que sacrificaste. Vuelve a escuchar tu música, usa la ropa que te gusta, habla como tú hablas, sueña lo que tú sueñas. Duele al principio, claro, porque soltar la ilusión de “si cambio lo suficiente me amará” es duro. Pero al otro lado está la libertad de ser tú sin miedo, y alguien que te elija por quien realmente eres, no por la versión editada que creaste para complacer.
 
-            Tú vales demasiado como para ser el entretenimiento nocturno de un cobarde emocional. Cuando dejes de contestar, vas a sentir un vacío raro, pero después va a llegar el alivio más grande del mundo: darte cuenta de que tu tiempo, tu cariño y tu atención son demasiado buenos para regalarlos a quien solo los quiere cuando está hecho mierda.
-
-            Tú puedes vivir sin esas migajas. Y cuando lo hagas, vas a abrirle la puerta a alguien que te llame porque realmente te quiere, no porque las drogas le hicieron bajar la guardia. Ámate lo suficiente para mandarlo a la verga de una vez. Te lo mereces todo, no las sobras de nadie.`
-        }
+Tú puedes reconstruirte. Ya demostraste que tienes la fuerza para cambiar por alguien más; ahora usa esa misma fuerza para volver a ser tú. Te lo mereces. Eres suficiente tal como naciste, antes de que nadie te pidiera que fueras diferente.`
+    }
     ];
 
     let currentIdx = 0;
